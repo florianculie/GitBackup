@@ -43,7 +43,7 @@ do {
 
     if ($Response.Count -gt 0) {
         $AllRepos += $Response
-        Write-Host "  Page $Page: $($Response.Count) repositories found."
+        Write-Host "  Page $($Page): $($Response.Count) repositories found."
         $Page++
     }
     else {
